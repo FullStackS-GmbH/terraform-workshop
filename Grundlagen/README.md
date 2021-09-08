@@ -17,9 +17,9 @@ TODO: => Paar sätze. Nicht zu viel text
 
 * What are the opportunities u get from using Terraform?
     * Terraform can also be used in a team with the Terraform Enterprice version.
-
+ 
+* Ich weiß nicht ob der folgende part noch hierher gehört.
 * What are Modules?
-    * Ich weiß nicht ob der folgende part unter Modules passt.
     * Terraform is split into two main parts. 
         * Terraform Core: Provides a common interface that allows you to leverage many different cloud providers, databases, services and house-solutions.
         * Terraform Plugins: Communicates with Terraform Core ofer an RPC interface. Each plugin exposes an implementation for a specific service. 
