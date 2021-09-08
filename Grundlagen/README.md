@@ -18,6 +18,23 @@ TODO: => Paar sätze. Nicht zu viel text
 * What are the opportunities u get from using Terraform?
     * Terraform can also be used in a team with the Terraform Enterprice version.
 
+* What are Modules?
+    * Ich weiß nicht ob der folgende part unter Modules passt.
+    * Terraform is split into two main parts. 
+        * Terraform Core: Provides a common interface that allows you to leverage many different cloud providers, databases, services and house-solutions.
+        * Terraform Plugins: Communicates with Terraform Core ofer an RPC interface. Each plugin exposes an implementation for a specific service. 
+    * Every Terraform configuration has at least one module. This specific module is called "Root Module". "Child Modules" can be called through the Root Module. 
+        * The definition of a good module: A good module should raise the level of abstraction by describing a new concept in your architecture that is constructed from resource types offered by providers.
+
+* What are the most important parts of the Terraform language? 
+    * The Terraform language basically exists out of 3 parts:
+        * Blocks: Containers for other content and they usually represent the configuration of some kind of object, like a resource.
+        * Arguments: Are used to assing a value to a name. They appear within blocks.
+        * Expressions: They represent a value, either literally or by referencing and combining other values.
+    * There is a simple command out there for forcing the terraform code to use the style conventions:
+    ` terraform fmt `
+    
+
 ## Let's do some magic 
 
 * [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
