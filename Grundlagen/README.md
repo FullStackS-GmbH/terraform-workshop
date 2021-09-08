@@ -3,18 +3,20 @@ This small workshop shall give you an Idea how to install and use terraform. All
 
 ## Terraform? What's this sorcery? 
 TODO: => Paar sätze. Nicht zu viel text
-* Was ist terraform
-    * HCL (Hashicorp Configuration Language)
-    * Single binary
-    * erweiterbar durch Provider
 
-* Wie machen wir es in dem workshop:
-    * Terraform code in GitHup
-    * Terraform execute auf eigenem Comupter
-    * Terraform states lokal
+* What is terraform?
+    * Terraform is an open source "Infrastructure as Code" tool. It enables developers to use the Hashi Corp Configuration Language to describe the desired end-state cloud or on-promises infrastructure for running an application.
+    * Single binary?
+    * Terraform can be expanded throughout providers. A provider represents an integration that is responsible for understanding API interactions with the underlying infrastructure.
 
-* Ausblick auf möglichkeiten:
-    * Terrafrom im Team mit Terraform Enterprise
+* What are we doing in this workshop?
+    * We will show and explain you some sample code through GitHub. 
+    * We will also make some practice examples where you can execute a terraform file on your own device.
+    * Terraform states local?
+
+
+* What are the opportunities u get from using Terraform?
+    * Terraform can also be used in a team with the Terraform Enterprice version.
 
 ## Let's do some magic 
 
