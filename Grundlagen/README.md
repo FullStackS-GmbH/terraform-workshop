@@ -21,4 +21,12 @@ TODO: => Paar sätze. Nicht zu viel text
 * [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
 * [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
 
-UND SO WEITER und so weiter :) 
+Diese Themen sollten enthalten sein:
+* Terraform workflow => init, plan, apply
+* Variabeln in Terraform (variables.tf + terraform.tfvars)
+* Terraform states => was ist der state, warum ist er so wichtig, (state manipulieren?)
+* Nächster schritt => irgendwas mit terraform machen. also irgendwas richtiges aber vielleicht was was keine externe dependency hat. Müssten wir uns einen provier suchen dafür
+* terraform data => abfragen externer infos mit terraform und weiterverwenden: https://registry.terraform.io/providers/hashicorp/dns/latest/docs/data-sources/dns_a_record_set
+* terraform module
+
+UND SO WEITER und so weiter. Was uns halt noch einfällt
