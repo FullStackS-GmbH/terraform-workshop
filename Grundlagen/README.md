@@ -40,6 +40,34 @@ TODO: => Paar sätze. Nicht zu viel text
 * [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
 * [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
 
+* General information about Terraform Workflow
+    * 
+
+* What are Variables in Terraform?
+    * There are two importent files on which you will have to take care of. 
+        * variables.tf: 
+        * terraform.tfvars: 
+
+* What are Terraform states?
+    * 
+
+* Hands on practice example
+
+* Terraform data
+
+* 8 best practice tips
+    * Manipulate the state only through Terraform commands
+    * Always set up a shared remote storage
+    * Use state locking to avoid conflicts
+    * Back up your state filfe
+    * Use only one state per Environment
+    * Host the Terraform scripts in a GIT repository
+    * Continuous integration for Terraform Code. You should review your Terraform Code bevore publishing it. 
+    * Apply infrastructure changes only through the continuous delivery pipeline.
+
+
+
+
 Diese Themen sollten enthalten sein:
 * Terraform workflow => init, plan, apply
 * Variabeln in Terraform (variables.tf + terraform.tfvars)
