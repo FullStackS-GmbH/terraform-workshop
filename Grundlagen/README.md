@@ -14,7 +14,6 @@ TODO: => Paar sätze. Nicht zu viel text
     * We will also make some practice examples where you can execute a terraform file on your own device.
     * Terraform states local?
 
-
 * What are the opportunities u get from using Terraform?
     * Terraform can also be used in a team with the Terraform Enterprice version.
  
@@ -31,8 +30,7 @@ TODO: => Paar sätze. Nicht zu viel text
         * Blocks: Containers for other content and they usually represent the configuration of some kind of object, like a resource.
         * Arguments: Are used to assing a value to a name. They appear within blocks.
         * Expressions: They represent a value, either literally or by referencing and combining other values.
-    * There is a simple command out there for forcing the terraform code to use the style conventions:
-    ` terraform fmt `
+    * There is a simple command out there for forcing the terraform code to use the style conventions: ` terraform fmt `
     
 
 ## Let's do some magic 
@@ -40,8 +38,16 @@ TODO: => Paar sätze. Nicht zu viel text
 * [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
 * [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
 
-* General information about Terraform Workflow
-    * 
+* General information about the Terraform Workflow
+    * There are four main personas for managing infrastructure at scale:
+        * Central IT: This team is responsible for defining common infrastructure practices, enforcing policy across teams, and maintaining shared services.
+        * Organization Arichitekt: This team defines how global infrastructure is divided and delegated to the teams within the business unit.
+        * Workspace Owner: This individual owns a specific set of workspaces, which build a given Terraform configuration across several environments.
+        * Workspace Contributor: Contributors submit changes to workspaces by making updates to the infrastructure as code configuration.
+    * A workspace is a collection of everything Terraform needs to run. For example a Terraform configuration.
+    * Workspaces are used as a primary tool for delegating control within your configuration. Generally you can say that you need one workspace per envrionment per terraform configuration.
+    * Configurations * environments = workspaces.
+
 
 * What are Variables in Terraform?
     * There are two importent files on which you will have to take care of. 
@@ -49,7 +55,9 @@ TODO: => Paar sätze. Nicht zu viel text
         * terraform.tfvars: 
 
 * What are Terraform states?
-    * 
+    * The state is storing your managed infrastructure and configuration. By default the state is stored in the "terraform.tfstate" file but you can also store it remotly which is the better option when workin in a team environment.
+    * State snapshots are stored in JSON format and new Terraform versions are generally backward compatible with statte snapshots from earlier versions. 
+    * With the ` terraform state ` command you can perform basic modifications of the state using the CLI.
 
 * Hands on practice example
 
@@ -64,8 +72,6 @@ TODO: => Paar sätze. Nicht zu viel text
     * Host the Terraform scripts in a GIT repository
     * Continuous integration for Terraform Code. You should review your Terraform Code bevore publishing it. 
     * Apply infrastructure changes only through the continuous delivery pipeline.
-
-
 
 
 Diese Themen sollten enthalten sein:
