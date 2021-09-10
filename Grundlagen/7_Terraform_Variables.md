@@ -1,18 +1,13 @@
 # Terraform Variables
 
 * What are Variables in Terraform?
-    * There are two importent files on which you will have to take care of. 
-        * variables.tf: 
-        * terraform.tfvars: 
+    * They serve as parameters for a Terraform module, so users can customize behavior without editing the source.
 
-A Variable definitions file uses the same basci syntax as Terraform language files but consists only of variable name assignments:
-
-
-
+A Variable definitions file uses the same basic syntax as Terraform language files but consists only of variable name assignments:
 
 ## Declaration of variables:
 
-bla lba 
+In the variables.tf file you define your variables plus the type the variable should have.
 
 variables.tf:
 ```
@@ -22,6 +17,8 @@ variable "image_id" {
 ```
 
 ## Usage of variables:
+
+In the terraform.tfvars file you assign a value to the already created variable. The default file that is used for the variables is the terraform.tfvars.
 
 terraform.tfvars:
 ```
