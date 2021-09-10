@@ -4,6 +4,9 @@ Terraform modules gives you the power to build infrastructure repeatable. Think 
 
 A terraform module is again just a set of terraform files but in a separate directory. You can keep them locally as subdirectory of `./modules/` or you can even download them from git or the Terraform Enterprise registry. 
 
+   * Every Terraform configuration has at least one module. This specific module is called "Root Module". "Child Modules" can be called through the Root Module. 
+        * The definition of a good module: A good module should raise the level of abstraction by describing a new concept in your architecture that is constructed from resource types offered by providers.
+
 ## A example module
 
 Let's put some of our terraform code in a module:

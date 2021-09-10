@@ -1,5 +1,10 @@
 # Terraform Variables
 
+* What are Variables in Terraform?
+    * There are two importent files on which you will have to take care of. 
+        * variables.tf: 
+        * terraform.tfvars: 
+
 A Variable definitions file uses the same basci syntax as Terraform language files but consists only of variable name assignments:
 
 

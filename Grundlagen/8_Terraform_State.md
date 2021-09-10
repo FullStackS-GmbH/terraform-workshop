@@ -6,6 +6,9 @@ Terraform must store state about your managed infrastructure and configuration. 
 
 Terraform uses this local state to create plans and make changes to your infrastructure. Prior to any operation, Terraform does a refresh to update the state with the real infrastructure.
 
+State snapshots are stored in JSON format and new Terraform versions are generally backward compatible with state snapshots from earlier versions. 
+With the ` terraform state ` command you can perform basic modifications of the state using the CLI.
+
 ## Where is this state?
 
 ### Local
