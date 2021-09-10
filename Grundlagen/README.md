@@ -9,7 +9,7 @@ This small workshop shall give you an Idea how to install and use terraform. All
     * Terraform can be expanded throughout providers. There are providers available for many usecases. [See Terraform Registry](https://registry.terraform.io/browse/providers)
 
 * What is / does Terraform not ? 
-    *
+    * It's not a tool to configure Operatingsystems. It can do some basics though. 
  
 * What are we doing in this workshop?
     * We will show and explain you some sample code through GitHub. 
