@@ -31,12 +31,18 @@ TODO: => Paar sätze. Nicht zu viel text
         * Arguments: Are used to assing a value to a name. They appear within blocks.
         * Expressions: They represent a value, either literally or by referencing and combining other values.
     * There is a simple command out there for forcing the terraform code to use the style conventions: ` terraform fmt `
-    
 
-## Let's do some magic 
+* Terraform data
 
-* [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
-* [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
+* What are Terraform states?
+    * The state is storing your managed infrastructure and configuration. By default the state is stored in the "terraform.tfstate" file but you can also store it remotly which is the better option when workin in a team environment.
+    * State snapshots are stored in JSON format and new Terraform versions are generally backward compatible with statte snapshots from earlier versions. 
+    * With the ` terraform state ` command you can perform basic modifications of the state using the CLI.
+
+* What are Variables in Terraform?
+    * There are two importent files on which you will have to take care of. 
+        * variables.tf: 
+        * terraform.tfvars: 
 
 * General information about the Terraform Workflow
     * There are four main personas for managing infrastructure at scale:
@@ -48,21 +54,6 @@ TODO: => Paar sätze. Nicht zu viel text
     * Workspaces are used as a primary tool for delegating control within your configuration. Generally you can say that you need one workspace per envrionment per terraform configuration.
     * Configurations * environments = workspaces.
 
-
-* What are Variables in Terraform?
-    * There are two importent files on which you will have to take care of. 
-        * variables.tf: 
-        * terraform.tfvars: 
-
-* What are Terraform states?
-    * The state is storing your managed infrastructure and configuration. By default the state is stored in the "terraform.tfstate" file but you can also store it remotly which is the better option when workin in a team environment.
-    * State snapshots are stored in JSON format and new Terraform versions are generally backward compatible with statte snapshots from earlier versions. 
-    * With the ` terraform state ` command you can perform basic modifications of the state using the CLI.
-
-* Hands on practice example
-
-* Terraform data
-
 * 8 best practice tips
     * Manipulate the state only through Terraform commands
     * Always set up a shared remote storage
@@ -73,6 +64,12 @@ TODO: => Paar sätze. Nicht zu viel text
     * Continuous integration for Terraform Code. You should review your Terraform Code bevore publishing it. 
     * Apply infrastructure changes only through the continuous delivery pipeline.
 
+## Let's do some magic 
+
+* [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
+* [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
+
+* Hands on practice example
 
 Diese Themen sollten enthalten sein:
 * Terraform workflow => init, plan, apply
