@@ -1,20 +1,12 @@
 # Create your first Resource
 
+Each resource block describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records.
+
 In practice the template variables are seperated into another file for a better overview.
 
 ```
-data "template_file" "hosts" {
-  template = "${ip} ${hostname}"
-  vars = {
-    hostname = "Google"
-    ip  = www.google.com
-  }
-}
-```
-
-```
 resource "local_file" "foo" {
-    content     = data.template_file.hosts
+    content     = data.template_file.hosts.rendered
     filename = "./hostsfile"
 }
 ```
