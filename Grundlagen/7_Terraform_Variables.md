@@ -42,3 +42,6 @@ variable "docker_ports" {
   ]
 }
 ```
+
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/6_Terraform_Modules.md)
+[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/8_Terraform_State.md)

@@ -43,3 +43,6 @@ module "example2" {
 This will produce two files without the need to redefine the resource and template twice. 
 
 Please find the code in the [CodeExample6](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample6) directory
+
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/5_Create_First_Resource.md)
+[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/7_Terraform_Variables.md)
