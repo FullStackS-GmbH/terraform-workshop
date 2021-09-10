@@ -12,3 +12,6 @@ resource "local_file" "foo" {
 ```
 
 Now put the code into your main.tf file. (You may also copy [CodeExample3.tf](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample3.tf))
+
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/4_Terraform_Data.md)
+[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/6_xxx.md)

@@ -12,3 +12,5 @@ data "dns_a_record_set" "google" {
 
 Now put the code into your main.tf file. (You may also copy [CodeExample2.tf](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample3.tf))
 
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/3_Terraform_Workflow.md)
+[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/5_Create_First_Resource.md)

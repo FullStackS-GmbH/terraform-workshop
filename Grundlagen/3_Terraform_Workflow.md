@@ -69,4 +69,4 @@ hello = "hello world!"
 
 
 [< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
-[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/4_xxx.md)
+[Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/4_Terraform_Data.md)
