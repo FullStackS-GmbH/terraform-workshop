@@ -7,7 +7,7 @@ cd terraform-workshop
 open main.tf
 ```
 
-In main.tf we put our first terraform code (You may also copy [CodeExample1.tf](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample1.tf)):
+In main.tf we put our first terraform code (You may also copy [CodeExample2](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample2)):
 ```
 output "hello" {
     value = "hello world"
