@@ -68,8 +68,7 @@ TODO: => Paar sätze. Nicht zu viel text
 
 * [Basic Requirements](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/1_Basic_Requirements.md)
 * [Create first line of Code](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
-
-* Hands on practice example
+* [Create first Resource](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/5_Create_First_Resource.md)
 
 Diese Themen sollten enthalten sein:
 * Terraform workflow => init, plan, apply
