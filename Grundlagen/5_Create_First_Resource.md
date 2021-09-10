@@ -3,7 +3,7 @@
 In practice the template variables are seperated into another file for a better overview.
 
 ```
-data "template_file" "metadata" {
+data "template_file" "hosts" {
   template = "${ip} ${hostname}"
   vars = {
     hostname = "Google"
@@ -14,9 +14,9 @@ data "template_file" "metadata" {
 
 ```
 resource "local_file" "foo" {
-    content     = data.template_file.dingsda
-    filename = "${path.module}/foo.bar"
+    content     = data.template_file.hosts
+    filename = "./hostsfile"
 }
 ```
 
-Now put the code into your main.tf file. (You may also copy [CodeExample2.tf](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample2.tf))
+Now put the code into your main.tf file. (You may also copy [CodeExample3.tf](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/CodeExample3.tf))
