@@ -17,3 +17,5 @@ The state-file can also be stored in a remote place. This could be a s3-bucket f
 
 A more advanced way to to keep the state files is a `Terraform Enterprise Server`. It does not only store the state remote and encryptet. It also helps working with terraform together as a team. It will for example prevent the apply of the same terraform twice at a time through state locking. 
 
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/7_Terraform_Variables.md)
+
