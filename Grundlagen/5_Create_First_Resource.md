@@ -1,6 +1,6 @@
 # Create your first Resource
 
-In practice the template varialbles are seperated to another file for a better overview.
+In practice the template variables are seperated into another file for a better overview.
 
 ```
 data "template_file" "metadata" {
