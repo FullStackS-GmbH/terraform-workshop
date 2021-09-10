@@ -14,5 +14,5 @@ So please download the appropriate Version for your platform, unzip it and put i
 First of all: Take what ever editor you like. Some of them will be a lot more help than others (like Visual Studio Code) some are just Editors (vim). Both will work
 
 
-[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/READNE.md)
+[< Back](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/README.md)
 [Next >](https://github.com/FullStackS-GmbH/terraform-workshop/blob/master/Grundlagen/2_Create_First_Line_Of_Code.md)
