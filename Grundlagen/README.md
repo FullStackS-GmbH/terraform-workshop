@@ -1,6 +1,8 @@
 # Terraform Workshop
 This small workshop shall give you an Idea how to install and use terraform. All steps build on top of each other. So try to follow them one after each other :relaxed: 
 
+[Terraform Documentation] (https://www.terraform.io/intro/index.html)
+
 ## Terraform? What's this sorcery? 
 
 * What is Terraform?
